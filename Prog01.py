@@ -3,3 +3,9 @@
 #inputting 2 numbers
 num_1 = float(input("Enter 1st Number: "))
 num_2 = float(input("Enter 2nd Number: "))
+
+#Print the bigger number
+if num_1 > num_2:
+    print(float(f"{num_1}is bigger!"))
+else:
+    print(float(f"{num_1}is bigger!"))
