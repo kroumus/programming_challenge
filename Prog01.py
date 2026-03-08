@@ -8,4 +8,4 @@ num_2 = float(input("Enter 2nd Number: "))
 if num_1 > num_2:
     print((f"{num_1} is bigger!"))
 else:
-    print((f"{num_1} is bigger!"))
+    print((f"{num_2} is bigger!"))
