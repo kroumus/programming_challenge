@@ -4,10 +4,7 @@
 PINK = '\033[38;2;255;182;193m'
 
 #input 2 numbers
-nums_in_between = []
-for i in range(2):
-    numbers = int(input(f"{PINK}Enter Number {i+1}: "))
-    nums_in_between.append(numbers)
+nums_in_between = [int(input(f"{PINK}Enter Number {i + 1}: ")) for i in range(2)]
         
 #print all the numbers between the two numbers
 if nums_in_between[0] < nums_in_between[1]:
