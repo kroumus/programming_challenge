@@ -4,5 +4,11 @@
 PINK = '\033[38;2;255;182;193m'
 
 #input 10 numbers
+even_numbers = 0
 for i in range(10):
-    numbers = int(input(f"Enter Number {i+1}: "))
+    numbers = int(input(f"{PINK}Enter Number {i+1}: "))
+    if numbers % 2 == 0:
+        even_numbers += 1
+
+#print even numbers
+print(even_numbers)
