@@ -8,4 +8,4 @@ numbers = [int(input(f"{PINK}Enter Number {i+1}: ")) for i in range(10)]
 
 #diplay all numbers that don't have duplicate
 no_duplicate = set(numbers)
-print(*no_duplicate, sep=" ", end=" " )
+print(*no_duplicate, sep=" ")
