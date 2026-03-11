@@ -3,6 +3,9 @@
 #Display "Duplicate" after input when the inputted number have duplicate.
 
 #input a number, continue asking until the user input is invalid.
-while True:
-    numbers = input(f"Enter a Number: ")
+invalid = ["a", "b"]
 
+while True:
+    numbers = [input("Enter a Number: ")]
+  
+   
