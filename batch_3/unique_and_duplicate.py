@@ -13,7 +13,7 @@ while True:
         print("Invalid")
 #Display "Duplicate" after input when the inputted number have duplicate.    
     if numbers in inputted:
-        print("Duplicate")
+        print("Duplicate") 
 #Display "Unique" after input when the inputted number don't have duplicate.     
     else:
         print("Unique")
