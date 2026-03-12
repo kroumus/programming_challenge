@@ -4,5 +4,10 @@
 inputted = []
 while True:
     numbers = input("Enter a Number: ")
+    inputted.append(numbers)
     if not numbers.isdigit():
         print("Invalid")
+        break
+#Display the lowest number
+    lowest_number = min(numbers)
+    print(lowest_number)
