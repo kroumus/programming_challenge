@@ -12,5 +12,6 @@ while True:
         break
 
 #Display the lowest number
-    inputted.append(numbers)
-    set()
+    inputted.append(int(numbers))
+    print(min(inputted))
+    
