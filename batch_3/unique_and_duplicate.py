@@ -11,6 +11,7 @@ while True:
     numbers = input(f"{PINK}Enter a Number: ")
     if not numbers.isdigit():
         print("Invalid")
+        break
 #Display "Duplicate" after input when the inputted number have duplicate.    
     if numbers in inputted:
         print("Duplicate") 
