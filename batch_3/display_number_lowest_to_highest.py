@@ -11,4 +11,8 @@ while True:
     if not numbers.isdigit():
         print("Invalid")
         break
-
+#Display the number from lowest to highest
+    inputted.append(int(numbers))
+    inputted.sort()
+    no_duplicate = list(dict.fromkeys(inputted))
+    print(*no_duplicate)
