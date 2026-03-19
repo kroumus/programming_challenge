@@ -16,4 +16,3 @@ while True:
     inputted.append(int(numbers))
     highest_number = max(set(inputted))
     print(highest_number)
- 
