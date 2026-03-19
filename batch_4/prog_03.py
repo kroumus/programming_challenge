@@ -5,9 +5,15 @@ PINK = '\033[38;2;255;182;193m'
 
 
 #input a number, continue asking until the user input is invalid.
-
+inputted = []
 while True:
     numbers = input(f"{PINK}Enter a Number: ")
     if not numbers.isdigit():
         print("Invalid")
         break
+ 
+#Display the highest number
+    inputted.append(int(numbers))
+    highest_number = max(set(inputted))
+    print(highest_number)
+ 
