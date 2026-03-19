@@ -4,3 +4,5 @@
 #Input:         Juan Dela Cruz
 #Output: Juan Dela Cruz
 
+#ask the user to input their fullname
+full_name = input("Enter your fullname: ")
