@@ -4,5 +4,8 @@
 #Input:         Juan Dela Cruz
 #Output: Juan Dela Cruz
 
-#ask the user to input their fullname
-full_name = input("Enter your fullname: ")
+#make it color pink daw sabi ng bebi ko
+PINK = '\033[38;2;255;182;193m'
+
+full_name = input(f"{PINK}Enter your fullname: ").strip()
+print(full_name)
