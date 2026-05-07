@@ -1,4 +1,3 @@
-#replicate upper()
 user_input = input("Enter text: ")
 result = ""
 for char in user_input:
