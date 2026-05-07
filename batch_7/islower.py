@@ -1,4 +1,3 @@
-#Replica islower()
 user_input = input("Enter text: ")
 is_all_lower = True
 has_letter = False
